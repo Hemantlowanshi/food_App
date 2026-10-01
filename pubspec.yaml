@@ -1,0 +1,67 @@
+name: zomato_project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.1.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_sign_in: ^7.2.0
+  firebase_core: ^4.15.0
+  firebase_auth: ^6.7.0
+  package_info_plus: ^10.2.1
+  shared_preferences: ^2.5.5
+  flutter_secure_storage: ^11.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/v.jpg
+    - assets/img/7541900.png
+    - assets/img/veg.jpeg
+    - assets/img/isolation_Mode.png
+    - assets/img/circle.png
+    - assets/img/pizza.png
+    - assets/img/google.png
+    - assets/img/iphone.png
+    - assets/img/menu.png
+    - assets/img/smartphone.png
+
+  fonts:
+    - family: Righteous
+      fonts:
+        - asset: assets/font/Righteous-Regular.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Bold.ttf
+
+    - family: Poppins-Medium
+      fonts:
+        - asset: assets/font/Poppins-Medium.ttf
+
+    - family: Poppins-SemiBold
+      fonts:
+        - asset: assets/font/Poppins-SemiBold.ttf
+
+    - family: Poppins-Bold
+      fonts:
+        - asset: assets/font/Poppins-Bold.ttf
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/img/circle.png"
+  remove_alpha_ios: true
